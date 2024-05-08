@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="581.0" prefWidth="793.0" style="-fx-background-color: #DBA6F7;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.blogplatformfinal.HelloController">
+    <children>
+        <ImageView fitHeight="520.0" fitWidth="793.0" layoutY="61.0" opacity="0.66">
+            <image>
+                <Image url="@../../../images/lavanderfield (1).jpg" />
+            </image>
+        </ImageView>
+        <Label layoutX="32.0" layoutY="73.0" text="ACCOUNT">
+            <font>
+                <Font name="Britannic Bold" size="17.0" />
+            </font>
+        </Label>
+        <Label layoutX="68.0" layoutY="99.0">
+            <graphic>
+                <Pane prefHeight="30.0" prefWidth="268.0">
+                    <children>
+                        <Label layoutX="37.0" prefHeight="30.0" prefWidth="449.0" text="Set as Public account">
+                            <font>
+                                <Font name="Britannic Bold" size="17.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+            </graphic>
+        </Label>
+        <Pane layoutX="76.0" layoutY="132.0" prefHeight="30.0" prefWidth="284.0">
+            <children>
+                <Label layoutX="29.0" layoutY="-2.0" prefHeight="30.0" prefWidth="443.0" text="Set as Private account">
+                    <font>
+                        <Font name="Britannic Bold" size="17.0" />
+                    </font>
+                </Label>
+                <ToggleButton layoutX="326.0" layoutY="-12.0" mnemonicParsing="false" onAction="#onaccountButton" style="-fx-background-color: #DBA6F7;" text="ON/OFF">
+                    <font>
+                        <Font name="Arial Black" size="12.0" />
+                    </font>
+                </ToggleButton>
+            </children>
+        </Pane>
+        <Label layoutX="28.0" layoutY="185.0" prefHeight="18.0" prefWidth="126.0" text="NOTIFICATION">
+            <font>
+                <Font name="Britannic Bold" size="19.0" />
+            </font>
+        </Label>
+        <Pane layoutX="60.0" layoutY="194.0" prefHeight="30.0" prefWidth="292.0">
+            <children>
+                <Label layoutX="43.0" layoutY="21.0" text="Enable the notification">
+                    <font>
+                        <Font name="Britannic Bold" size="17.0" />
+                    </font>
+                </Label>
+            </children>
+        </Pane>
+        <Pane layoutX="60.0" layoutY="232.0" prefHeight="30.0" prefWidth="363.0">
+            <children>
+                <Label layoutX="45.0" layoutY="7.0" text="Disable the notification">
+                    <font>
+                        <Font name="Britannic Bold" size="17.0" />
+                    </font>
+                </Label>
+            </children>
+        </Pane>
+        <Pane layoutX="76.0" layoutY="286.0" prefHeight="30.0" prefWidth="311.0">
+            <children>
+                <Label layoutX="-44.0" layoutY="-3.0" prefHeight="18.0" prefWidth="97.0" text="COMMENTS">
+                    <font>
+                        <Font name="Britannic Bold" size="19.0" />
+                    </font>
+                </Label>
+            </children>
+        </Pane>
+        <Pane layoutX="254.0" layoutY="321.0" prefHeight="37.0" prefWidth="126.0">
+            <children>
+                <Label layoutX="-140.0" layoutY="-18.0" prefHeight="27.0" prefWidth="443.0" text="Enable the comments">
+                    <font>
+                        <Font name="Britannic Bold" size="17.0" />
+                    </font>
+                </Label>
+            </children>
+        </Pane>
+        <Line endX="688.7999267578125" endY="59.292877197265625" startX="32.892887115478516" startY="59.292884826660156" />
+        <ToggleButton layoutX="403.0" layoutY="321.0" mnemonicParsing="false" onAction="#oncommentsButton" style="-fx-background-color: #DBA6F7;" text="ON/OFF">
+            <font>
+                <Font name="Arial Black" size="12.0" />
+            </font>
+        </ToggleButton>
+        <Button layoutX="336.0" layoutY="456.0" mnemonicParsing="false" onAction="#oncancelsettings" prefHeight="30.0" prefWidth="65.0" style="-fx-background-color: #DBA6F7;" text="Cancel">
+            <font>
+                <Font name="Britannic Bold" size="15.0" />
+            </font>
+        </Button>
+        <Button layoutX="154.0" layoutY="457.0" mnemonicParsing="false" onAction="#onsavesettings" style="-fx-background-color: #DBA6F7;" text="Save">
+            <font>
+                <Font name="Britannic Bold" size="16.0" />
+            </font>
+        </Button>
+        <Label layoutX="111.0" layoutY="333.0" prefHeight="30.0" prefWidth="191.0" text="Diable the comments">
+            <font>
+                <Font name="Britannic Bold" size="17.0" />
+            </font>
+        </Label>
+        <ToggleButton layoutX="403.0" layoutY="224.0" mnemonicParsing="false" onAction="#onnotificationButton" style="-fx-background-color: #DBA6F7;" text="ON/OFF">
+            <font>
+                <Font name="Arial Black" size="12.0" />
+            </font>
+        </ToggleButton>
+        <Label layoutX="28.0" layoutY="26.0" style="-fx-background-color: #DBA6F7;" text="Settings">
+            <font>
+                <Font name="Britannic Bold" size="22.0" />
+            </font>
+        </Label>
+    </children>
+</Pane>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="374.0" prefWidth="558.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.blogplatformfinal.HelloController">
+    <children>
+        <ImageView fitHeight="374.0" fitWidth="558.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../images/lavander plain.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="67.0" fitWidth="54.0" layoutX="282.0" layoutY="53.0">
+            <image>
+                <Image url="@../../../images/profile.png" />
+            </image>
+        </ImageView>
+        <Button layoutX="363.0" layoutY="328.0" mnemonicParsing="false" onAction="#onCancelProfile" style="-fx-background-color: #DBA6F7;" text="Cancel" />
+        <Button layoutX="241.0" layoutY="328.0" mnemonicParsing="false" onAction="#onSaveProfile" style="-fx-background-color: #DBA6F7;" text="Save" />
+        <Label layoutX="149.0" layoutY="149.0" text="Name">
+            <font>
+                <Font name="Britannic Bold" size="17.0" />
+            </font></Label>
+        <Label layoutX="149.0" layoutY="191.0" text="Username">
+            <font>
+                <Font name="Britannic Bold" size="16.0" />
+            </font></Label>
+        <Label layoutX="154.0" layoutY="276.0" text="Link">
+            <font>
+                <Font name="Britannic Bold" size="17.0" />
+            </font></Label>
+        <Label layoutX="149.0" layoutY="230.0" text="Bio">
+            <font>
+                <Font name="Britannic Bold" size="19.0" />
+            </font></Label>
+        <TextField fx:id="nameField" layoutX="270.0" layoutY="145.0" prefHeight="26.0" prefWidth="215.0" />
+        <TextField fx:id="usernamefield" layoutX="271.0" layoutY="186.0" prefHeight="26.0" prefWidth="215.0" />
+        <TextField fx:id="linkField" layoutX="271.0" layoutY="272.0" prefHeight="26.0" prefWidth="215.0" />
+        <TextArea fx:id="bioField" layoutX="268.0" layoutY="216.0" prefHeight="48.0" prefWidth="222.0">
+            <font>
+                <Font size="1.0" />
+            </font>
+        </TextArea>
+        <Label layoutX="278.0" layoutY="28.0" prefHeight="19.0" prefWidth="71.0" text="Profile">
+            <font>
+                <Font name="Britannic Bold" size="21.0" />
+            </font></Label>
+    </children>
+</AnchorPane>

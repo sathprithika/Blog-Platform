@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="571.0" prefWidth="660.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.blogplatformfinal.HelloController">
+    <children>
+        <ImageView fitHeight="579.0" fitWidth="669.0" layoutX="-2.0" opacity="0.78">
+            <image>
+                <Image url="@../../../images/lavander.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="26.0" fitWidth="32.0" layoutX="267.0" layoutY="490.0" opacity="0.72">
+            <image>
+                <Image url="@../../../images/google (1).png" />
+            </image>
+        </ImageView>
+        <Label layoutX="283.0" layoutY="119.0" prefHeight="47.0" prefWidth="113.0" text="SIGN UP">
+            <font>
+                <Font name="Britannic Bold" size="26.0" />
+            </font>
+        </Label>
+        <Label layoutX="144.0" layoutY="272.0" text="Password">
+            <font>
+                <Font name="Britannic Bold" size="24.0" />
+            </font>
+        </Label>
+        <Line endX="91.79998779296875" layoutX="182.0" layoutY="449.0" startX="-118.60003662109375" />
+        <Line endX="84.5999755859375" layoutX="520.0" layoutY="449.0" startX="-133.4000244140625" />
+        <Label layoutX="315.0" layoutY="434.0" prefHeight="26.0" prefWidth="54.0" text="(OR)">
+            <font>
+                <Font size="16.0" />
+            </font></Label>
+        <Label layoutX="144.0" layoutY="198.0" prefHeight="47.0" prefWidth="92.0" text="Email">
+            <font>
+                <Font name="Britannic Bold" size="24.0" />
+            </font>
+        </Label>
+        <Button layoutX="294.0" layoutY="352.0" mnemonicParsing="false" onAction="#validateSignup" prefHeight="38.0" prefWidth="92.0" style="-fx-background-color: #DBA6F7;" text="Sign Up">
+            <font>
+                <Font name="Britannic Bold" size="17.0" />
+            </font></Button>
+        <TextField fx:id="emailField" layoutX="322.0" layoutY="209.0" />
+        <TextField fx:id="passField" layoutX="322.0" layoutY="271.0" />
+        <Text layoutX="293.0" layoutY="473.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign up with">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Text>
+        <ImageView fitHeight="26.0" fitWidth="32.0" layoutX="324.0" layoutY="490.0">
+            <image>
+                <Image url="@../../../images/facebook (1).png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="26.0" fitWidth="32.0" layoutX="381.0" layoutY="490.0">
+            <image>
+                <Image url="@../../../images/twitter.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>
